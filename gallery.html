@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial=scale=1.0">	
+		<link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./assets/sample/stacktrek-logo.png" type="image/x-icon">
+        <title>Portfolio Gallery</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<nav>
+                <a href="index.html"><img src="./assets/img/stacktrek-logo.png" alt="Stacktrek Logo" class="logo"></a>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="gallery.html"  class="activeNav">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT ME</a></li>
+				</ul>
+			</nav>
+            
+            <h1 class="myportheader">Gallery</h1>
+            <div class="wrapper">
+                <!-- filter Items -->
+                <nav>
+                  <div class="items">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="On-site Trainees">On-site Trainees</span>
+                    <span class="item" data-name="Activities">Activities</span>
+                    <span class="item" data-name="Participating Schools">Participating Schools</span>
+                  </div>
+                </nav>
+
+                <div class="gallery">
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/1.jpg" alt=""></span></div>
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/2.jpg" alt=""></span></div>
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/3.jpg" alt=""></span></div>
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/4.jpg" alt=""></span></div>
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/5.jpeg" alt=""></span></div>
+                    <div class="image" data-name="On-site Trainees"><span><img src="./assets/img/6.jpeg" alt=""></span></div>
+                    <div class="image" data-name="Activities"><span><img src="./assets/img/Act1.png" alt="" height="180px" width="180px"></span></div>
+                    <div class="image" data-name="Activities"><span><img src="./assets/img/Act2.png" alt="" height="180px" width="180px"></span></div>
+                    <div class="image" data-name="Activities"><span><img src="./assets/img/Act3.png" alt="" height="180px" width="180px"></span></div>
+                    <div class="image" data-name="Activities"><span><img src="./assets/img/Act4.png" alt="" height="180px" width="180px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/CPU.png" alt="" height="200px" width="200px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/UA.png" alt="" height="200px" width="200px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/SC.png" alt="" height="200px" width="200px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/OLFU.png" alt="" height="200px" width="200px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/UPHSD.png" alt="" height="200px" width="200px"></span></div>
+                    <div class="image" data-name="Participating Schools"><span><img src="./assets/img/UST.png" alt="" height="200px" width="200px"></span></div>
+                </div>
+            </div>
+
+            <!-- fullscreen img preview box -->
+            <div class="preview-box">
+                <div class="details">
+                    <span class="title">Image Category: <p></p></span>
+                    <span class="icon fas fa-times">&times;</span>
+                </div>
+                <div class="image-box"><img src="" alt=""></div>
+            </div>
+            <div class="shadow"></div>
+		</div>
+
+        <script src="script.js"></script>
+	</body>
+</html>
